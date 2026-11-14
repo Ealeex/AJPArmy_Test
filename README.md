@@ -1,11 +1,11 @@
-# AJPARMY Depressed
+# AJP Army static test site
 
-Open `index.html` in a browser. The pages use relative links and work directly from disk. The Watch page uses the original live Pilled.net embed. Partner, social and payment links also open their original destinations.
+This copy preserves the original Divi frontend and Slider Revolution browser rendering, including responsive layer sizing, masks, WebGL effects, pointer movement, and scroll animation. Slider data is embedded locally; PHP and a WordPress database are not needed to render the public pages.
 
-- Each page has its own `index.html`.
-- `styles/site.css` holds the shared layout and interior page styles.
-- `styles/home.css` holds the layered scenes and homepage layout.
-- `scripts/` contains the navigation, horizontal pointer tracking, scroll effects and the legacy blog’s local search.
-- `assets/` contains the original artwork and locally served fonts.
+Double-click **Open AJPArmy_Test.cmd** to preview in your browser. Keep its preview window open. Use the local HTTP preview rather than opening index.html directly, so browser modules and fonts load consistently. From this folder, run `python -m http.server 8765 --bind 127.0.0.1` and visit http://127.0.0.1:8765/.
 
-The homepage effects use CSS and browser JavaScript. The hero follows the pointer horizontally with the original three-second easing and layer depths. The background pans, black fades, badge rotations and platform fades follow the original scroll settings. Lightning uses the original strike timing, though blending may differ slightly. The legacy blog’s search matches titles in this copy.
+PARTNER navigation and the homepage Truther Media module are removed. The X watch link points to https://x.com/AJPArmy. The Pilled embed and external social/payment links remain live.
+
+The `.nojekyll` file preserves the `_assets` folder when deployed to GitHub Pages. No custom-domain configuration is included.
+
+The earlier simplified artwork, styles, and scripts remain on disk but are no longer used by these pages.

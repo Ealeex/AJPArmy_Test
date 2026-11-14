@@ -209,3 +209,31 @@ button { font: inherit; }
   .support-mobile-copy { display: block; margin-top: 27px; font: 500 26px/1.4 var(--copy); }
   .donations { grid-template-columns: 1fr; gap: 30px; margin-top: 72px; }
 }
+
+/* Match the original homepage's expanded Divi mobile navigation. */
+@media (max-width: 980px) {
+  .hero-header .site-nav {
+    top: 55px;
+    padding: 4.75%;
+  }
+  .hero-header .site-nav a {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 26px;
+    padding: 10px 5%;
+    border-bottom-color: rgb(0 0 0 / 3%);
+  }
+}
+
+@media (max-width: 980px) {
+  .interior-header .site-nav {
+    top: 82px;
+    left: 50%;
+    padding: 2.375%;
+  }
+  .interior-header .site-nav a {
+    line-height: 26px;
+    padding: 10px 5%;
+    border-bottom-color: rgb(0 0 0 / 3%);
+  }
+}
